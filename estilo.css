@@ -1,0 +1,108 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kanbanPrincipal{
+    margin-top:50px;
+    height:500px;
+    width:840px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    width: 150px;
+    font-size: 20px;
+    margin-top:-12px;
+    margin-left:7px;
+    background:white;
+}
+
+h2 {
+    margin-left: 100;
+    width: 130px;
+    font-size: 20px;
+    color: blue;
+}
+
+.kanbanPrincipal_c3{
+    border-right: 4px solid green ;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.kanbanPrincipal_c2{
+    border-right: 4px solid green ;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kanbanPrincipal_c4{
+    border-right: 4px solid green ;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.kanbanPrincipal_c1{
+    border-right: 4px solid green ;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.kanbanPrincipal_c5{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.cajas{
+    
+    padding: 5px;
+    width: 90px;
+    height:80px ;
+    transform: rotate(5deg);
+}
+
+.miniCajas{
+    background-color:red;
+    padding: 5px;
+    width: 80px;
+    height:20px;
+    margin-top:-30px;
+    margin-left:-3px;
+    transform: rotate(-5deg);
+}
+
+#caja1{
+    margin-top: 100px;
+    background-color: lightcoral;
+}
+
+#caja2{
+    margin-top: 150px;
+    background-color: lightgreen;
+}
+
+#caja3{
+    margin-top: 109px;
+    background-color: lightblue;
+}
+
+#caja4{
+    margin-top: 70px;
+    background-color: lightseagreen;
+}
+
+#caja5{
+    margin-top: 140px;
+    background-color: lightsalmon;
+}
